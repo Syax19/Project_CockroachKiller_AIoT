@@ -1,0 +1,80 @@
+Jetson nano 2GB JetBot AI kit
+
+Step.1 HardWare Setup
+
+Reference:
+https://www.waveshare.net/wiki/JetBot_AI_Kit
+
+
+
+Step.2 SoftWare Setup(Docker)
+
+NOTE: You should check whether the JetPack version is compatible with the JetBot version first,
+      If you set up JetBot using the pre-built JetBot docker containers.
+	  Reference: https://github.com/NVIDIA-AI-IOT/jetbot/releases
+
+* JetPack 4.5(L4T R32.5.0)
+Container Version v2.0.1-r32.5.0
+
+* JetBot 0.4.3
+
+l4t-pytorch:r32.5.0-pth1.6-py3
+- PyTorch v1.6.0
+- torchvision v0.7.0
+- torchaudio v0.6.0
+
+
+Follow by the steps described below:
+$ git clone http://github.com/NVIDIA-AI-IOT/jetbot.git
+
+$ cd jetbot
+$ ./scripts/configure_jetson.sh
+$ ./scripts/enable_swap.sh
+
+$ cd docker
+$ ./enable.sh $HOME
+
+
+
+Step.3 WIFI Setup
+
+First-time Setup
+1. Plug in USB-C/micro-USB cable to connect your laptop and JetBot
+2. Confirm that the laptop can read the files in the JetBot
+3. Open MobaXterm to build a session
+   >>> SSH -> Remote host -> 192.168.55.1
+   >>> Enter the username and the password
+4. $ sudo nmcli device wifi rescan
+5. $ sudo nmcli device wifi list
+6. $ sudo nmcli device wifi connect <wifi_name> password <wifi_password>
+7. OLED will show the <jetbot_ip>
+8. Remove the USB-C/micro-USB cable
+9. Go to https://<jetbot_ip>:8888 from a web browser and start programming JetBot
+
+
+Second-time Setup if JetBot lost the connection of the original wifi connection:
+Method.1
+1. Plug in USB-C/micro-USB cable to connect your laptop and JetBot
+2. Confirm that the laptop can read the files in the JetBot
+3. Open MobaXterm to build a session
+   >>> SSH 192.168.55.1
+4. $ sudo nmcli device wifi rescan
+5. $ sudo nmcli device wifi list
+6. $ sudo nmcli device wifi connect <wifi_name> password <wifi_password>
+7. OLED will show the <jetbot_ip>
+8. Remove the USB-C/micro-USB cable
+9. Go to https://<jetbot_ip>:8888 from a web browser and start programming JetBot
+
+Method.2
+1. Plug in USB-C/micro-USB cable to connect your laptop and JetBot
+2. Confirm that the laptop can read the files in the JetBot
+3. Go to https://192.168.55.1:8888 from a web browser (Password: jetbot)
+4. Open a terminal
+   # If you're in the jetbot container, do the step 5, else jump to step 6
+5. ssh nano@0.0.0.0  # ssh login to jetson localhost from jupyterlab terminal
+6. $ sudo nmcli device wifi rescan
+7. $ sudo nmcli device wifi list
+8. $ sudo nmcli device wifi connect <wifi_name> password <wifi_password>
+9. OLED will show the <jetbot_ip>
+10. Remove the USB-C/micro-USB cable
+11. Go to https://<jetbot_ip>:8888 from a web browser and start programming JetBot
