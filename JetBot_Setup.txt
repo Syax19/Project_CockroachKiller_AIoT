@@ -9,9 +9,9 @@ https://www.waveshare.net/wiki/JetBot_AI_Kit
 
 Step.2 SoftWare Setup(Docker)
 
-NOTE: You should check whether the JetPack version is compatible with the JetBot version first,
-      if you set up JetBot using the pre-built JetBot docker containers.
-	  Reference: https://github.com/NVIDIA-AI-IOT/jetbot/releases
+NOTE: If you set up JetBot using the pre-built JetBot docker containers, 
+      you should check whether the JetPack version is compatible with the JetBot version first.
+      Reference: https://github.com/NVIDIA-AI-IOT/jetbot/releases
 
 * JetPack 4.5(L4T R32.5.0)
 Container Version v2.0.1-r32.5.0
