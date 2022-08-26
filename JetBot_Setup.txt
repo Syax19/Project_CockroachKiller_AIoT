@@ -16,7 +16,7 @@ Step.2-1 SoftWare Setup(Image file)
 
 
 Step.2-2 SoftWare Setup(Docker)
-NOTE.1: This method is suitable for your jetson nano has installed JetPack.
+NOTE.1: This method is suitable for your jetson nano has already installed JetPack.
 
 NOTE.2: If you set up JetBot using the pre-built JetBot docker containers, 
         you should check whether the JetPack version is compatible with the JetBot version first.
