@@ -7,11 +7,20 @@ https://www.waveshare.net/wiki/JetBot_AI_Kit
 
 
 
-Step.2 SoftWare Setup(Docker)
+Step.2-1 SoftWare Setup(Image file)
+1. Download the image `jetbot-043_nano-2gb-jp45.zip` (the latest version) from NVIDIA-AI-IOT GitHub
+   Reference: https://github.com/NVIDIA-AI-IOT/jetbot/releases
+2. Flash the zip file to the SD card (recommend over 64 GB)
+3. Insert the SD card in the jetson nano SD card slot
+4. Turn on the power and jump to Step 3 to set up WIFI
 
-NOTE: If you set up JetBot using the pre-built JetBot docker containers, 
-      you should check whether the JetPack version is compatible with the JetBot version first.
-      Reference: https://github.com/NVIDIA-AI-IOT/jetbot/releases
+
+Step.2-2 SoftWare Setup(Docker)
+NOTE.1: This method is suitable for your jetson nano has installed JetPack.
+
+NOTE.2: If you set up JetBot using the pre-built JetBot docker containers, 
+        you should check whether the JetPack version is compatible with the JetBot version first.
+        Reference: https://github.com/NVIDIA-AI-IOT/jetbot/releases
 
 * JetPack 4.5(L4T R32.5.0)
 Container Version v2.0.1-r32.5.0
