@@ -45,12 +45,22 @@
 
 * 蟑螂資料庫收集
 
-使用JetBot AI Kit中附的遙控器搭配遠程遙控程式碼透過戰車搭載的CSI相機獲取照片\
+使用JetBot AI Kit中附的遙控器，搭配遠程遙控程式碼，透過戰車搭載的CSI相機獲取照片\
 詳細程式碼可參考：
 > Data Collection through Teleoperation.ipynb
 <br>
 
-* 
+* Yolov5環境建置
 
+依照JetBot原始環境及Yolov5所需環境建置docker container\
+以下提供docker image供有需要的人下載：
+docker pull syax19/yolov5_jetbot
+<br>
+
+* Yolov5模型訓練
+
+參考Yolov5官方GitHub：
+> https://github.com/ultralytics/yolov5
+<br>
 
 
