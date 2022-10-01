@@ -69,3 +69,6 @@
 > yolov5Dataform.ipynb
 <br>
 
+* 利用拍照計算戰車轉動角度，獲取之後調整物體追蹤的參數
+
+> AlgleCaculation.ipynb
