@@ -63,4 +63,9 @@
 > https://github.com/ultralytics/yolov5
 <br>
 
+* 分析Yolov5物體偵測後取得資料
+
+可參考以下程式碼：
+> yolov5Dataform.ipynb
+<br>
 
