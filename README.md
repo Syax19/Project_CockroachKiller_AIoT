@@ -11,6 +11,7 @@
 1. 自動巡守家園並迴避障礙物
 2. 自動追蹤並噴灑藥劑殺滅蟑螂
 3. 回傳任務訊息給使用者的Line
+<br>
 
 * 硬體及戰車環境建置
 本戰車為使用JetBot AI智能小車改裝而成，搭載Jetson nano 2GB 主板\
@@ -27,6 +28,7 @@
 * 噴射裝置測試
 噴射裝置由酒精噴槍改裝而成，控制噴射馬達程式碼可參考：
 > Spray.py
+<br>
 
 * 迴避障礙模型
 依照JetBot GitHub提供兩種模型進行訓練並比較效能，擇優選擇了Alexnet
@@ -36,12 +38,13 @@
 | Test Accuracy |       98.4%       |         92.2%        |
 | Training Time |      ~15 min      |        ~20 min       | 
 
-
+<br>
 
 * 蟑螂資料庫收集
 使用JetBot AI Kit中附的遙控器搭配遠程遙控程式碼透過戰車搭載的CSI相機獲取照片\
 詳細程式碼可參考：
 > Data Collection through Teleoperation.ipynb
+<br>
 
 * 
 
