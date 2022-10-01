@@ -52,7 +52,7 @@
 
 * Yolov5環境建置
 
-依照JetBot原始環境及Yolov5所需環境建置docker container\
+依照JetBot原始環境及Yolov5所需環境建置docker container在local host做訓練\
 以下提供docker image供有需要的人下載：
 > docker pull syax19/yolov5_jetbot
 <br>
@@ -78,6 +78,6 @@
 > linebot.ipynb
 <br>
 
-* 執行蟑螂追蹤、噴灑藥劑、回傳任務訊息
+* 執行蟑螂追蹤、噴灑藥劑、回傳任務訊息(因記憶體不足，此部分執行時使用Jetson nano 4GB主板)
 > CockroachKiller.ipynb
 <br>
