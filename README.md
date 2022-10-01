@@ -15,6 +15,7 @@
 本戰車為使用JetBot AI智能小車改裝而成，搭載Jetson nano 2GB 主板\
 車體組裝及JetBot環境建置可參考：
 > JetBot_Setup.txt
+\
 拖車部分為依需求自行設計紙模後，再請壓克力店製作出1:1的載具
 
 * 蟑螂資料庫收集
