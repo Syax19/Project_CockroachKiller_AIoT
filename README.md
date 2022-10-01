@@ -16,8 +16,8 @@
 拖車部分為依需求自行設計紙模後，再請壓克力店製作出1:1的載具\
 車體本體組裝及JetBot環境建置可參考：
 > JetBot_Setup.txt 
->
 
+\
 * 戰車驅動馬達測試
 可參考JetBot環境建置後內附的程式碼：
 > basic_motion.ipynb
