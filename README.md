@@ -17,12 +17,12 @@
 車體本體組裝及JetBot環境建置可參考：
 > JetBot_Setup.txt
 
-\
+\n
 * 戰車驅動馬達測試
 可參考JetBot環境建置後內附的程式碼：
 > basic_motion.ipynb
 
-\
+\n
 * 噴射裝置測試
 噴射裝置由酒精噴槍改裝而成，控制噴射馬達程式碼可參考：
 > Spray.py
