@@ -54,7 +54,7 @@
 
 依照JetBot原始環境及Yolov5所需環境建置docker container\
 以下提供docker image供有需要的人下載：
-docker pull syax19/yolov5_jetbot
+> docker pull syax19/yolov5_jetbot
 <br>
 
 * Yolov5模型訓練
