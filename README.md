@@ -31,6 +31,7 @@
 <br>
 
 * 迴避障礙模型
+
 依照JetBot GitHub提供兩種模型進行訓練並比較效能，擇優選擇了Alexnet
 <br>
 
