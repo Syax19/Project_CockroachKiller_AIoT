@@ -71,3 +71,13 @@
 * 利用拍照計算戰車轉動角度，獲取之後調整物體追蹤的參數
 
 > AlgleCaculation.ipynb
+<br>
+
+* 使用line傳送任務訊息給用戶
+
+> linebot.ipynb
+<br>
+
+* 執行蟑螂追蹤、噴灑藥劑、回傳任務訊息
+> CockroachKiller.ipynb
+<br>
