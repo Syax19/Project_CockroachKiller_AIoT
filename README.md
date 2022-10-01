@@ -15,14 +15,14 @@
 本戰車為使用JetBot AI智能小車改裝而成，搭載Jetson nano 2GB 主板\
 拖車部分為依需求自行設計紙模後，再請壓克力店製作出1:1的載具\
 車體本體組裝及JetBot環境建置可參考：
-> JetBot_Setup.txt
+> JetBot_Setup.txt\
 
-\n
+
 * 戰車驅動馬達測試
 可參考JetBot環境建置後內附的程式碼：
-> basic_motion.ipynb
+> basic_motion.ipynb\
 
-\n
+
 * 噴射裝置測試
 噴射裝置由酒精噴槍改裝而成，控制噴射馬達程式碼可參考：
 > Spray.py
