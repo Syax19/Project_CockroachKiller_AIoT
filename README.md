@@ -70,7 +70,7 @@
 
 * 利用拍照計算戰車轉動角度，獲取之後調整物體追蹤的參數
 
-> AlgleCaculation.ipynb
+> AngleCaculation.ipynb
 <br>
 
 * 使用line傳送任務訊息給用戶
