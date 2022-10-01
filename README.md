@@ -45,7 +45,7 @@
 
 * 蟑螂資料庫收集
 
-使用JetBot AI Kit中附的遙控器，搭配遠程遙控程式碼，透過戰車搭載的CSI相機獲取照片\
+使用JetBot AI Kit中附的控制器，搭配遠程遙控程式碼，透過戰車搭載的CSI相機獲取照片\
 詳細程式碼可參考：
 > Data Collection through Teleoperation.ipynb
 <br>
