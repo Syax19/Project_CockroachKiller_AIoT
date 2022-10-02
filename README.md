@@ -55,7 +55,7 @@
 
 * Yolov5環境建置
 
-依照JetBot原始環境及Yolov5所需環境建置docker container在local host做訓練\
+依照JetBot原始環境及Yolov5所需環境建置docker container，在Host PC做訓練\
 以下提供docker image供有需要的人下載：
 > docker pull syax19/yolov5_jetbot
 <br>
