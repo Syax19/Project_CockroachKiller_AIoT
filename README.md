@@ -1,4 +1,4 @@
-# Cockroach Killer 蟑．狼
+# Automatic Cockroach Killer 蟑．狼
 
 * **成品影片連結**：
 > https://youtu.be/eh25jqIfVpo
