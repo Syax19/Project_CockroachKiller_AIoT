@@ -81,6 +81,6 @@
 > linebot.ipynb
 <br>
 
-* 執行蟑螂追蹤、噴灑藥劑、回傳任務訊息(因記憶體不足，此部分執行時使用Jetson nano 4GB主板)
+* 執行蟑螂追蹤、噴灑藥劑、回傳任務訊息(因2GB記憶體不足，此部分執行時使用Jetson nano 4GB主板)
 > CockroachKiller.ipynb
 <br>
