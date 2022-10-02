@@ -1,7 +1,7 @@
 # Cockroach Killer 蟑．狼
 
 * **成品影片連結**：
-> 待影片剪好再附上
+> https://youtu.be/eh25jqIfVpo
 
 * **專題解說影片連結**：
 > 待影片剪好再附上
