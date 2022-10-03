@@ -4,7 +4,7 @@
 > https://youtu.be/eh25jqIfVpo
 
 * **專題解說影片連結**：
-> 待影片剪好再附上
+> https://youtu.be/GH7bPX7Qx5s
 <br>
 
 * 本戰車為一台主動式滅蟑智慧戰車，主要功能如下：
